@@ -1,9 +1,9 @@
 from tensorflow.keras.models import load_model
 import numpy as np
 
-model = load_model('/home/luiz/Documents/aline/model.h1')
+model = load_model('/home/luiz/Desktop/Aline/model.h1')
 
-labels = open('/home/luiz/Documents/aline/labels.txt','r',encoding='utf-8').read().split('\n')
+labels = open('/home/luiz/Desktop/Aline/labels.txt','r',encoding='utf-8').read().split('\n')
 
 labels2idx  = {}
 idx2label = {}

@@ -12,7 +12,7 @@ from train.classifier import classify
 validate_loop = True
 p = pyaudio.PyAudio()
     
-model = Model('/home/luiz/Documents/aline/model/vosk-pt')
+model = Model('/home/luiz/Desktop/Aline/model/vosk-pt')
 rec = KaldiRecognizer(model,16000)
 
 list_hello = ["Olá Mr. luuiizz!","Oii!","Olá,pronto pro trabalho","vamos iniciar mais um dia","trabalhar né?","acordei","to aqui","que foooooi?","de novooooo!!!"]

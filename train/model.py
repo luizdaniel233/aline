@@ -39,7 +39,7 @@ for i,inp in enumerate(inputs):
 
 labels = set(outputs)
 
-fwrite = open('/home/luiz/Documents/aline/labels.txt','w',encoding='utf-8')
+fwrite = open('/home/luiz/Desktop/Aline/labels.txt','w',encoding='utf-8')
 
 labels2idx  = {}
 idx2label = {}
