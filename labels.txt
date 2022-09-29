@@ -1,0 +1,13 @@
+bye\getBye
+youtube\getYoutube
+chrome\getChrome
+temper\getTemper
+spotify\getSpotify
+linkedin\getLinkedin
+up\getUp
+time\getTime
+system-manjaro\getUpdate
+message\getMessage
+jira\getJira
+search\getSearch
+welcome\getWelcome

@@ -1,0 +1,285 @@
+commands:
+  # Horas
+  - command : 
+    input : que horas são?
+    entity : time
+    action : getTime
+
+  # Horas
+  - command : 
+    input : me diga as horas
+    entity : time
+    action : getTime
+
+  # Horas
+  - command : 
+    input : horas
+    entity : time
+    action : getTime
+
+  # Temperatura
+  - command : 
+    input : Temperatura
+    entity : temper
+    action : getTemper
+
+  # Temperatura
+  - command : 
+    input : Temperatura local
+    entity : temper
+    action : getTemper
+
+  # Temperatura
+  - command : 
+    input : Temperatura de hoje
+    entity : temper
+    action : getTemper
+
+  # System-manjaro
+  - command : 
+    input : Me atualiza
+    entity : system-manjaro
+    action : getUpdate
+
+  # System-manjaro
+  - command : 
+    input : atualizar pacotes
+    entity : system-manjaro
+    action : getUpdate
+
+  # System-manjaro
+  - command : 
+    input : atualizar sistema
+    entity : system-manjaro
+    action : getUpdate
+
+  # welcome
+  - command :
+    input : olá
+    entity : welcome
+    action : getWelcome
+
+  # welcome
+  - command :
+    input : olá!
+    entity : welcome
+    action : getWelcome
+
+  # welcome
+  - command :
+    input : ola
+    entity : welcome
+    action : getWelcome
+
+  # welcome
+  - command :
+    input : ola!
+    entity : welcome
+    action : getWelcome
+
+  # welcome
+  - command : 
+    input : Aline
+    entity : welcome
+    action : getWelcome
+
+  # welcome
+  - command : 
+    input : oii
+    entity : welcome
+    action : getWelcome
+
+   # welcome
+  - command : 
+    input : oii!
+    entity : welcome
+    action : getWelcome
+
+  # welcome
+  - command : 
+    input : Aline esta ai
+    entity : welcome
+    action : getWelcome
+
+  # welcome
+  - command : 
+    input : Aline está aí
+    entity : welcome
+    action : getWelcome
+
+  # welcome
+  - command : 
+    input : você ainda está aí
+    entity : welcome
+    action : getWelcome
+
+  # welcome
+  - command : 
+    input : você ainda esta ai
+    entity : welcome
+    action : getWelcome
+
+  # bye
+  - command : 
+    input : por hoje é só
+    entity : bye
+    action : getBye
+  
+  # bye
+  - command : 
+    input : pausa pro café
+    entity : bye
+    action : getBye
+  
+  # bye
+  - command : 
+    input : adeus
+    entity : bye
+    action : getBye
+  
+  # bye
+  - command : 
+    input : sair
+    entity : bye
+    action : getBye
+
+  # open 
+  - command : 
+    input : abrir chrome
+    entity : chrome
+    action : getChrome
+
+  # open 
+  - command : 
+    input : pesquisar
+    entity : search
+    action : getSearch
+
+  # open 
+  - command : 
+    input : pesquisa
+    entity : search
+    action : getSearch
+  
+  # open 
+  - command : 
+    input : abrir navegador
+    entity : chrome
+    action : getChrome
+  
+  # open 
+  - command : 
+    input : navegador
+    entity : chrome
+    action : getChrome
+
+  # open 
+  - command : 
+    input : chrome
+    entity : chrome
+    action : getChrome
+
+  # open 
+  - command : 
+    input : abrir youtube
+    entity : youtube
+    action : getYoutube
+
+  # open 
+  - command : 
+    input : youtube
+    entity : youtube
+    action : getYoutube
+  
+  # open 
+  - command : 
+    input : projetos
+    entity : jira
+    action : getJira
+
+  # open 
+  - command : 
+    input : abrir jira
+    entity : jira
+    action : getJira
+
+  # open 
+  - command : 
+    input : jira
+    entity : jira
+    action : getJira
+
+  # open 
+  - command : 
+    input : abrir spotify
+    entity : spotify
+    action : getSpotify
+
+  # open 
+  - command : 
+    input : spotify
+    entity : spotify
+    action : getSpotify
+  
+  # open 
+  - command : 
+    input : mensagem
+    entity : message
+    action : getMessage
+  
+  # open 
+  - command : 
+    input : mensagens
+    entity : message
+    action : getMessage
+
+  # open 
+  - command : 
+    input : perfil
+    entity : linkedin
+    action : getLinkedin
+
+  # up
+  - command : 
+    input : como você está?
+    entity : up
+    action : getUp
+  
+  # up
+  - command : 
+    input : como voce esta?
+    entity : up
+    action : getUp
+  
+  # up
+  - command : 
+    input : como vai você?
+    entity : up
+    action : getUp
+  
+  # up
+  - command : 
+    input : como vai voce?
+    entity : up
+    action : getUp
+  
+  # up
+  - command : 
+    input : olá tudo bem?
+    entity : up
+    action : getUp
+  
+  # up
+  - command : 
+    input : ola tudo bem?
+    entity : up
+    action : getUp
+  
+  # up
+  - command : 
+    input : tudo bem
+    entity : up
+    action : getUp
+
+
+  
